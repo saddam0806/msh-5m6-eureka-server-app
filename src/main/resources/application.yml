@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: EurekaServerApp
+#port: 8761 mean:- To register with eureka server  
+server:
+  port: 8761
+  
+  #false means:- do not register to your own server
+eureka:
+  client:
+    register-with-eureka: false
